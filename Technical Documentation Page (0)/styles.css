@@ -1,0 +1,88 @@
+/* PIP COLORS rgba{26, 255, 128}*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: rgba(26, 255, 128, 1);
+}
+
+#h_fallout {
+    padding: 10px 0px;
+    font-size: 40px;
+    border-bottom: 3px solid rgba(26, 255, 128, 1);
+    ;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1;
+    position: fixed;
+    font-family: 'Anton', sans-serif;
+    background-color: transparent;
+    border: 2px solid rgba(26, 255, 128, 1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#navbar a {
+    margin: 15px 30px;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(26, 255, 128, 1);
+}
+
+#navbar a:nth-child(2) {
+    margin-top: 20px;
+}
+
+#navbar a:last-child {
+    margin-bottom: 35px;
+}
+
+#navbar a:hover {
+    background-color: rgba(26, 255, 128, 1);
+    color: black;
+}
+
+#main-doc {
+    display: block;
+    width: 900px;
+    margin: auto;
+    text-align: justify;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+    padding: 10px 35px;
+}
+
+#fallout-pic {
+    width: 900px;
+    margin-top: 15px;
+}
+
+.main-section {
+    font-size: 20px;
+}
+
+#h_ORIGINS,
+#h_GAMES,
+#h_GAMEPLAY,
+#h_OVERVIEW,
+#h_RECEPTION {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 40px;
+    letter-spacing: 3px;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+}

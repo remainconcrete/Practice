@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: white url('https://cdn.pixabay.com/photo/2018/08/07/06/51/writing-3589234_960_720.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-blend-mode: darken;
+    color: white;
+}
+
+#survey {
+    width: 500px;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#gender-label {
+    display: inline-block;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+#number-label {
+    margin-right: 11px;
+}
+
+#number {
+    width: 138px;
+}
+
+#dropdown {
+    width: 96px;
+}
+
+#cyso,
+#newsletter {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#comments {
+    font-weight: bold;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+#textarea {
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+#submit {
+    display: block;
+    margin: 10px auto;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}

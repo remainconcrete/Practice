@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="survey">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for participating in our survey!</p>
+
+        <form id="survey-form" action="">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" placeholder="Your name" id="name" name="name" required>
+            <br><br>
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" placeholder="Your email" id="email" required>
+            <br><br>
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" placeholder="Number" id="number" min="16" max="130" required>
+            <br><br>
+            <label id="gender-label" for="gender">Your gender:</label>
+            <select name="gender" id="dropdown">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <p id="cyso">Choose your sexual orientation:</p>
+            <input type="radio" id="straight" name="sexuality" value="Straight">
+            <label for="straight">Straight</label><br>
+            <input type="radio" id="gay" name="sexuality" value="Gay">
+            <label for="gay">Gay</label><br>
+            <input type="radio" id="bisexual" name="sexuality" value="Bisexual">
+            <label for="bisexual">Bisexual</label>
+
+            <p id="newsletter">What do you want to see in your newsletter?</p>
+            <input type="checkbox" id="recommendations" name="recomendations" value="Further recommendations">
+            <label for="recomentations">Further recommendations</label><br>
+            <input type="checkbox" id="articles" name="articles" value="Useful articles">
+            <label for="articles">Useful articles</label><br>
+            <input type="checkbox" id="motivation" name="motivation" value="Motivational quotes">
+            <label for="motivation">Motivational quotes</label>
+
+            <p id="comments">Rate us and/or give us advice on how to improve!</p>
+            <textarea id="textarea" placeholder="I give you 10/10..."></textarea>
+            <button type="submit" id="submit" value="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
