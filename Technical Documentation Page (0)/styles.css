@@ -2,6 +2,8 @@
 
 html {
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body {
@@ -13,7 +15,6 @@ body {
     padding: 10px 0px;
     font-size: 40px;
     border-bottom: 3px solid rgba(26, 255, 128, 1);
-    ;
 }
 
 #navbar {
@@ -81,8 +82,8 @@ body {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen {
     body {
-        font-size: 15px;
+        color: white;
     }
 }

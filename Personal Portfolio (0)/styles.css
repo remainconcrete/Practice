@@ -1,0 +1,87 @@
+@media screen {
+    body {
+        color: white;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(160, 159, 159);
+    font-family: 'Merienda', cursive;
+}
+
+#navbar {
+    position: fixed;
+    margin-top: 10px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    padding: 25px 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1543196614-e046c7d3d82e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1341&q=80);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    text-align: center;
+}
+
+#h_welcome {
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+}
+
+#description {
+    font-size: 35px;
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px 180px;
+    padding: 70px 0px;
+}
+
+#project-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+
+#profile {
+    display: block;
+    margin-left: 868px;
+    padding-bottom: 70px;
+}
+
+#profile-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 18px;
+}
